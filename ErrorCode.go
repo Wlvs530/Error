@@ -18,6 +18,7 @@ const (
 	ErrorNoFromPlatform          // 没有来源平台
 	ErrorNoToken                 // 没有Token
 	ErrorNoValidCode             // 没有验证码
+	ErrorMissingArguments        // 缺少参数
 	ErrorInvalidData             // 无效数据
 	ErrorInvalidDate             // 无效日期
 	ErrorInvalidTimeStamp        // 无效时间戳
