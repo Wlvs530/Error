@@ -45,6 +45,7 @@ const (
 	ErrorFailedLogin             // 登录失败
 	// *******************************************
 	ErrorAccountIsExist        // 账户已存在
+	ErrorAccountNotExist       // 账户不存在
 	ErrorServiceIsExist        // 服务已存在
 	ErrorServiceNotExist       // 服务不存在
 	ErrorServiceAuthorityExist // 服务权限已存在
