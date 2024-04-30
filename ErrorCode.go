@@ -58,4 +58,5 @@ const (
 	ErrorIsFreezing  // 冷却中
 	ErrorNotSupport  // 不支持
 	ErrorSystemError // 系统错误
+	ErrorNotEnough   // 数据不足
 )
