@@ -34,29 +34,29 @@ const (
 	ErrorInvalidArguments        // 无效参数
 	ErrorFailedReadFile          // 读取文件失败
 	ErrorFailedWriteFile         // 写入文件失败
+	ErrorFailedConnectDB         // 连接数据库失败
 	ErrorFailedInsertData        // 插入数据失败
 	ErrorFailedQueryData         // 请求数据失败
 	ErrorFailedUpdateData        // 更新数据失败
 	ErrorFailedDeleteData        // 删除数据失败
+	ErrorEmptyData               // 数据为空
 	ErrorFailedVisitURL          // 访问地址失败
 	ErrorFailedParseJSON         // 解析格式失败
 	ErrorFailedParseData         // 解析数据失败
 	ErrorFailedSaveRedis         // 保存缓存失败
 	ErrorFailedLogin             // 登录失败
-	// *******************************************
-	ErrorAccountIsExist        // 账户已存在
-	ErrorAccountNotExist       // 账户不存在
-	ErrorServiceIsExist        // 服务已存在
-	ErrorServiceNotExist       // 服务不存在
-	ErrorServiceAuthorityExist // 服务权限已存在
-	ErrorPasswordNotMatch      // 密码不匹配
-	ErrorSignatureError        // 签名失败
-	ErrorConfigNoChange        // 配置无改变
-	ErrorLoginIsInPostDomain   // Login时在后域
-	ErrorRoomFullyBooked       // 房间已满
-	// *******************************************
-	ErrorIsFreezing  // 冷却中
-	ErrorNotSupport  // 不支持
-	ErrorSystemError // 系统错误
-	ErrorNotEnough   // 数据不足
+	ErrorAccountIsExist          // 账户已存在
+	ErrorAccountNotExist         // 账户不存在
+	ErrorServiceIsExist          // 服务已存在
+	ErrorServiceNotExist         // 服务不存在
+	ErrorServiceAuthorityExist   // 服务权限已存在
+	ErrorPasswordNotMatch        // 密码不匹配
+	ErrorSignatureError          // 签名失败
+	ErrorConfigNoChange          // 配置无改变
+	ErrorLoginIsInPostDomain     // Login时在后域
+	ErrorRoomFullyBooked         // 房间已满
+	ErrorIsFreezing              // 冷却中
+	ErrorNotSupport              // 不支持
+	ErrorSystemError             // 系统错误
+	ErrorNotEnough               // 数据不足
 )
