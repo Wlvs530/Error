@@ -28,7 +28,7 @@ const (
 	ErrorInvalidServiceAuthority // 无效服务权限
 	ErrorInvalidAuthority        // 无效权限
 	ErrorInvalidPhoneNumber      // 无效手机号
-	ErrorInvalidValidCode        // 无效验证码
+	ErrorInvalidVeriyCode        // 无效验证码
 	ErrorInvalidAccount          // 无效账户
 	ErrorInvalidToken            // 无效令牌
 	ErrorInvalidArguments        // 无效参数
@@ -44,6 +44,7 @@ const (
 	ErrorFailedParseJSON         // 解析格式失败
 	ErrorFailedParseData         // 解析数据失败
 	ErrorFailedSaveRedis         // 保存缓存失败
+	ErrorFailedSendMail          // 发送邮件失败
 	ErrorFailedLogin             // 登录失败
 	ErrorAccountIsExist          // 账户已存在
 	ErrorAccountNotExist         // 账户不存在
