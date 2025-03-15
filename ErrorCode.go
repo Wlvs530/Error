@@ -40,6 +40,7 @@ const (
 	ErrorFailedUpdateData        // 更新数据失败
 	ErrorFailedDeleteData        // 删除数据失败
 	ErrorEmptyData               // 数据为空
+	ErrorNotEnough               // 数据不足
 	ErrorFailedVisitURL          // 访问地址失败
 	ErrorFailedParseJSON         // 解析格式失败
 	ErrorFailedParseData         // 解析数据失败
@@ -60,5 +61,4 @@ const (
 	ErrorIsFreezing              // 冷却中
 	ErrorNotSupport              // 不支持
 	ErrorSystemError             // 系统错误
-	ErrorNotEnough               // 数据不足
 )
