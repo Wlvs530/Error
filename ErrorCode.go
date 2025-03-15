@@ -43,7 +43,8 @@ const (
 	ErrorFailedVisitURL          // 访问地址失败
 	ErrorFailedParseJSON         // 解析格式失败
 	ErrorFailedParseData         // 解析数据失败
-	ErrorFailedSaveRedis         // 保存缓存失败
+	ErrorFailedSetRedis          // 保存缓存失败
+	ErrorFailedGetRedis          // 读取缓存失败
 	ErrorFailedSendMail          // 发送邮件失败
 	ErrorFailedLogin             // 登录失败
 	ErrorAccountIsExist          // 账户已存在
